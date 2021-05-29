@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header'
+import MainContainer from './components/MainContainer/MainContainer'
+import Footer from './components/Footer/Footer';
+import Wrapper from './components/Wrapper/Wrapper';
 
 function App() {
   return (
