@@ -1,0 +1,39 @@
+thead th span{
+    cursor: pointer;
+}
+
+tbody {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+}
+
+.table{
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color:rgb(197, 197, 197);
+}
+
+th{
+    text-decoration: underline;
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.row-date{
+    text-align: center;
+    
+}
+
+.img:hover{
+    transform: scale(1.5);
+    transition: .2s ease-in;
+}
