@@ -1,7 +1,7 @@
 import React from "react";
-import "./SearchBar.css";
+import "./Searchbar.css";
 
-const SearchBar = (props) => {
+const Searchbar = (props) => {
     return (
 
         <nav className="navbar  justify-content-center">
@@ -21,4 +21,4 @@ const SearchBar = (props) => {
     );
 };
 
-export default SearchBar;
+export default Searchbar;
